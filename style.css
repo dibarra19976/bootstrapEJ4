@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+
+.bg-primary{
+    background-color: #563c80  !important;
+}
+
+.bg-secondary{
+    background-color: #e3cbe7   !important;
+}
+
+.navb{
+    color: #f1f2f8 ;
+    font-family: 'Gabarito', sans-serif !important;
+    font-size: 15pt !important;
+}
+
+.searchbar{
+    border-radius: 15px;
+}
+
+.searchbarInside{
+    background-color: #f1e5f3 !important;
+    border-radius: 10px;
+
+}
+
+.logo{
+    height: auto;
+    width: 4em;
+}
+
+li{
+    float: left;
+    list-style: none;
+    transition: 0.1s !important;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+ }
+
+.btn{
+    background-color: #92499c  !important;
+    border-radius: 30px !important;
+    color: #f1f2f8 !important;
+    font-size: 15pt !important;
+    transition: 0.1s !important;
+}
+
+.btn:hover{
+    background-color: #f1e5f3  !important;
+    color: #70727c !important;
+
+}
+
+/* *{
+    outline: 1px red solid;
+} */

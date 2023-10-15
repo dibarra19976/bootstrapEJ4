@@ -12,7 +12,7 @@
 .navb{
     color: #f1f2f8 ;
     font-family: 'Gabarito', sans-serif !important;
-    font-size: 15pt !important;
+    font-size: 14pt !important;
 }
 
 .searchbar{
@@ -37,7 +37,7 @@ li{
 }
 
 li:hover{
-    font-weight: bold;
+    color: #e3cbe7;
 }
 
 .transparent-input{
@@ -49,7 +49,7 @@ li:hover{
     background-color: #92499c  !important;
     border-radius: 30px !important;
     color: #f1f2f8 !important;
-    font-size: 15pt !important;
+    font-size: 12pt !important;
     transition: 0.1s !important;
 }
 
@@ -59,6 +59,22 @@ li:hover{
 
 }
 
+input[type="text"]:focus{
+    box-shadow: inset 0 -1px 0 #ddd !important;
+}
+
+.filter-primary{
+    filter: invert(25%) sepia(17%) saturate(1917%) hue-rotate(221deg) brightness(97%) contrast(91%);
+    transition: 0.1s;
+}
+
+.btn-img{
+    background: url(ico/download.svg) no-repeat scroll 7px 7px;
+    background-position: center; 
+}
+
+.filter-primary:hover{
+    filter: invert(88%) sepia(11%) saturate(201%) hue-rotate(246deg) brightness(104%) contrast(92%);}
 /* *{
     outline: 1px red solid;
 } */

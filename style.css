@@ -69,7 +69,7 @@ input[type="text"]:focus{
 }
 
 .btn-img{
-    background: url(ico/download.svg) no-repeat scroll 7px 7px;
+    background: url(./ico/download.svg) no-repeat scroll 7px 7px;
     background-position: center; 
 }
 

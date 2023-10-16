@@ -51,7 +51,7 @@
                 type="submit"
                 value="Submit"
               />
-              <div class="dropdown col-1 h-100 align-content-center me-3">
+              <div class="dropdown-center col-1 h-100 align-content-center me-3">
                 <a
                   class=" "
                   href="#"
@@ -75,7 +75,7 @@
                       id="filterid"
                       class="form-check-input focus-ring"
                     />
-                    Filter
+                    Category
                     <img
                       class="h-75 float-end"
                       src="./ico/home_FILL1_wght400_GRAD200_opsz24.svg"
@@ -89,7 +89,7 @@
                       id="filterid"
                       class="form-check-input focus-ring"
                     />
-                    Filter
+                    Category
                     <img
                       class="h-75 float-end"
                       src="./ico/home_FILL1_wght400_GRAD200_opsz24.svg"
@@ -103,7 +103,7 @@
                       id="filterid"
                       class="form-check-input focus-ring"
                     />
-                    Filter
+                    Category
                     <img
                       class="h-75 float-end"
                       src="./ico/home_FILL1_wght400_GRAD200_opsz24.svg"
@@ -117,12 +117,23 @@
                       id="filterid"
                       class="form-check-input focus-ring"
                     />
-                    Filter
+                    Category
                     <img
                       class="h-75 float-end"
                       src="./ico/home_FILL1_wght400_GRAD200_opsz24.svg"
                       alt=""
                     />
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li class="dropdown-item w-100">
+                    <span class="w-100">Sort by</span>
+                  </li>
+                  <li class="dropdown-item w-100">
+                    <select name="" id="" class="w-100">
+                      <option value="value1" selected>Recent</option>
+                      <option value="value2">Most views</option>
+                      <option value="value3">Most LIkes</option>
+                    </select>
                   </li>
                 </ul>
               </div>
@@ -132,14 +143,14 @@
       </div>
     </div>
 
-    <div class="container-fluid content w-100">
-      <div class="container w-75 article-card my-3">
+    <div class="container-fluid content w-100 position-relative mb-5">
+      <div class="container w-100 article-card my-3">
         <div class="row g-2">
           <div class="col-4 h-100 d-sm-none d-md-block d-none d-sm-block">
             <img src="./img/16-9.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col h-100">
+          <div class="col h-100 position-relative">
             <div class="card-content p-2">
               <h1>Article title</h1>
               <p class="">
@@ -151,16 +162,18 @@
               <h5>#tag1, #tag2</h5>
             </div>
             <div class="continue w-100 p-1 m-0">Continue reading</div>
+            <div class="position-absolute profile-pic"></div>
           </div>
         </div>
       </div>
-      <div class="container w-75 article-card my-3">
+
+      <div class="container w-100 article-card my-3">
         <div class="row g-2">
           <div class="col-4 h-100 d-sm-none d-md-block d-none d-sm-block">
             <img src="./img/16-9.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col h-100">
+          <div class="col h-100 position-relative">
             <div class="card-content p-2">
               <h1>Article title</h1>
               <p class="">
@@ -172,16 +185,18 @@
               <h5>#tag1, #tag2</h5>
             </div>
             <div class="continue w-100 p-1 m-0">Continue reading</div>
+            <div class="position-absolute profile-pic"></div>
           </div>
         </div>
       </div>
-      <div class="container w-75 article-card my-3 mb-5">
+
+      <div class="container w-100 article-card my-3">
         <div class="row g-2">
           <div class="col-4 h-100 d-sm-none d-md-block d-none d-sm-block">
             <img src="./img/16-9.png" alt="" class="img-fluid" />
           </div>
 
-          <div class="col h-100">
+          <div class="col h-100 position-relative">
             <div class="card-content p-2">
               <h1>Article title</h1>
               <p class="">
@@ -193,6 +208,7 @@
               <h5>#tag1, #tag2</h5>
             </div>
             <div class="continue w-100 p-1 m-0">Continue reading</div>
+            <div class="position-absolute profile-pic"></div>
           </div>
         </div>
       </div>
